@@ -792,3 +792,10 @@ footer .social-links {
 a.logo { display: inline-flex; align-items: center; color: #1971c2; text-decoration: none; } */
 /* a.logo:hover { color: #14508f; } */
 
+
+.section-cta-text { margin: 2rem 0 1rem; font-weight:700; color: var(--secondary-color-1); }
+.section-cta { margin-inline:auto; }
+#testimonials .content p { margin-bottom: 1.2rem; }
+#testimonials small { color: var(--secondary-color-2); }
+.cta-support { margin-top: 1rem; color: var(--secondary-color-2); }
+#contact a { color: var(--primary-color-1); }
