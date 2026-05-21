@@ -412,8 +412,34 @@ body.menu-expanded button path {
 }
 
 #about .content p {
-  margin-top: 2.4rem;
-  margin-bottom: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+#about .content p + p {
+  margin-top: 1.6rem;
+}
+
+#about .about-highlights {
+  margin-top: 3.2rem;
+  display: grid;
+  gap: 1.6rem;
+}
+
+#about .highlight-card {
+  background: white;
+  border: 1px solid var(--brand-light);
+  border-radius: 0.8rem;
+  padding: 2rem;
+}
+
+#about .highlight-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+#about .highlight-card p {
+  margin: 0;
 }
 
 /*=========== Contact =========== */
@@ -738,6 +764,11 @@ footer .social-links {
 
   #about .content p {
     margin-bottom: 0;
+  }
+
+  #about .about-highlights {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.2rem;
   }
 
   /*=========== CONTACT =========== */
