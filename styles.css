@@ -322,6 +322,13 @@ body.menu-expanded button path {
 
 #home .button {
   margin-inline: auto;
+  color: white;
+}
+
+#home .button:link,
+#home .button:visited,
+#home .button:active {
+  color: white;
 }
 
 #home h4 {
